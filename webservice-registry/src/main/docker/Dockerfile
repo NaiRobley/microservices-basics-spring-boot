@@ -3,7 +3,7 @@
 #-----------------------------------------------------------------------------------------------------
 FROM openjdk:8u121-jdk-alpine
 
-MAINTAINER Anil Allewar <anilallewar@yahoo.co.in>
+MAINTAINER Robley Gori
 
 # Keep consistent with build.gradle 
 ENV APP_JAR_NAME basic-webservice-registry
