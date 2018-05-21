@@ -39,8 +39,8 @@ task createWrapper(type: Wrapper) {
 * Spring boot application.
 */
 
-group = 'anilallewar'
-mainClassName = 'com.anilallewar.microservices.portal.PortalApplication'
+group = 'robley'
+mainClassName = 'com.robley.microservices.portal.PortalApplication'
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
