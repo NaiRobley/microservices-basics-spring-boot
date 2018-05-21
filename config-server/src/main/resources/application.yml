@@ -3,7 +3,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/nairobley/microservices-basics-cloud-config
+          uri: file:///Users/robley/Desktop/code/java/microservices-basics-cloud-config
+#         uri: https://github.com/nairobley/microservices-basics-cloud-config
 # While in development mode, you can configure the config server to pick up configuration files from
 # the file system
           
