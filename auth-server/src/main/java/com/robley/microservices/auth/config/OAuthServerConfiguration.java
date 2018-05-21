@@ -46,9 +46,9 @@ public class OAuthServerConfiguration extends AuthorizationServerConfigurerAdapt
 	@Bean
 	public JwtAccessTokenConverter jwtAccessTokenConverter() {
 		JwtAccessTokenConverter converter = new JwtAccessTokenConverter();
-		//Keypair is the alias name -> anilkeystore.jks / password / anila
-		KeyPair keyPair = new KeyStoreKeyFactory(new ClassPathResource("anilkeystore.jks"), "password".toCharArray())
-				.getKeyPair("anila");
+		//Keypair is the alias name -> robleykeystore.jks / password / robley
+		KeyPair keyPair = new KeyStoreKeyFactory(new ClassPathResource("robleykeystore.jks"), "password".toCharArray())
+				.getKeyPair("robley");
 		converter.setKeyPair(keyPair);
 		return converter;
 	}
