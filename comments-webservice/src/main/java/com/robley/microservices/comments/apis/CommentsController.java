@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.anilallewar.microservices.comments.dtos.CommentDTO;
+import com.robley.microservices.comments.dtos.CommentDTO;
 
 /**
  * REST endpoint for the comments functionality<br>
