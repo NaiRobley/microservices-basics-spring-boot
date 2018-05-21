@@ -21,7 +21,7 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Aut
 import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter;
 import org.springframework.security.oauth2.provider.token.store.KeyStoreKeyFactory;
 
-import com.anilallewar.microservices.auth.service.JdbcUserDetailsService;
+import com.robley.microservices.auth.service.JdbcUserDetailsService;
 
 /**
  * The Class defines the authorization server that would authenticate the user
@@ -77,7 +77,7 @@ public class OAuthServerConfiguration extends AuthorizationServerConfigurerAdapt
 	 * Higher priority since lesser ordered value indicate higher priority.
 	 * {@link Ordered#LOWEST_PRECEDENCE} has value as {@link Integer#MAX_VALUE}
 	 * 
-	 * @author anilallewar
+	 * @author robley
 	 *
 	 */
 	@Configuration
